@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/styles.css">
-    <title>undefined</title>
-</head>
-<body>
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Paintmaps.com , Online SVG vector map maker -->
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" baseProfile="full" width="800" height="533" style="background-color:#e0f2f1">
 <rect width="100%" height="100%" fill="#e0f2f1"/>
 <path id="uruapan" title="uruapan" d="M 460.8065 223.9806 L 460.9053 222.1974 L 461.8199 219.965 L 463.1981 214.9923 L 464.6158 215.3621 L 466.0128 214.1094 L 466.2659 211.7304 L 466.1205 207.7774 L 465.6697 204.6202 L 466.8729 200.166 L 467.7014 198.6869 L 470.8394 198.4691 L 474.0437 203.473 L 476.5668 204.4924 L 479.9628 206.2426 L 480.5096 206.8625 L 481.2768 212.5424 L 482.6579 216.1899 L 481.2738 217.2939 L 479.9964 218.9852 L 478.7448 222.3371 L 477.6395 222.0833 L 476.6172 220.7562 L 475.583 218.5205 L 474.6656 217.9833 L 470.4914 218.0608 L 467.914 220.2052 L 463.9771 223.9994 L 461.8495 224.6334 L 460.8065 223.9806 Z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" clip-path="none" style="filter: url(#f1)"/>
@@ -237,6 +230,3 @@
 <path d="M 591.1915 233.8962 L 589.9488 230.5427 L 589.2399 224.6802 L 588.6022 222.8604 L 588.8998 221.0828 L 591.0294 220.1983 L 592.1999 219.2307 L 594.0814 214.9923 L 596.9554 213.3837 L 597.5348 211.2413 L 595.6781 209.2182 L 594.6746 207.3657 L 594.6785 205.1541 L 595.7769 202.6574 L 597.3005 200.8399 L 601.09 199.0115 L 604.8272 199.4143 L 607.6893 198.7367 L 609.7201 197.7764 L 611.1803 197.46 L 613.8072 197.398 L 616.3065 195.513 L 619.4475 194.6456 L 620.1267 197.9009 L 621.2795 205.7674 L 621.9222 210.8544 L 621.9528 214.6723 L 621.587 217.1575 L 620.6903 220.1554 L 619.2874 221.591 L 616.5814 222.021 L 614.3164 225.978 L 612.3489 231.7281 L 610.9302 234.4785 L 610.4655 236.8751 L 608.4022 236.0439 L 606.5712 236.2552 L 603.5943 236.1494 L 599.4073 235.0352 L 597.2787 235.1561 L 592.7506 232.8924 L 591.1915 233.8962 Z" fill="rgba(124,233,20,1)" fill-opacity="1" stroke="#000000" stroke-width="0.5" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" clip-path="none"/><defs><filter id="f1" x="-100%" y="-100%" width="1000%" height="1000%"><feOffset result="offOut" in="SourceGraphic" dx="-9.799999999999999" dy="9.799999999999999"></feOffset><feColorMatrix result="matrixOut" in="offOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"></feColorMatrix><feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="8"></feGaussianBlur><feBlend in="SourceGraphic" in2="blurOut" mode="normal"></feBlend></filter></defs>
 
 </svg>
-    <script src="static/js/index.js"></script>
-</body>
-</html>
