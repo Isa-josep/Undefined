@@ -1,8 +1,7 @@
-.button{
+.button {
     animation-name: pulse;
-    animation-duration: 2.5s;
+    animation-duration: 6s; 
     animation-iteration-count: infinite;
-    background-color: alternate;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -13,14 +12,17 @@
     border-bottom-right-radius: 15px;
 }
 
-@keyframes pulse{
-    0%{
+@keyframes pulse {
+    0% {
         background-color: #f00;
     }
-    50%{
-        background-color: #00f;
+    33% {
+        background-color: #0f0; 
     }
-    100%{
-        background-color: rgb(255, 0, 174);
+    66% {
+        background-color: #00f; 
+    }
+    100% {
+        background-color: #f00; 
     }
 }
