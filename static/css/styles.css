@@ -1,3 +1,64 @@
 svg > path:hover{
     fill:black;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
+.title{ /*TODO: cambiar el color de las letras */
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  background: linear-gradient(
+    270deg, #FF512F 0%, #DD2476 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  
+}
+.navbar ul {
+  display: inline-block; 
+  list-style-type: none;
+  margin-left:50px;
+  
+}
+.navbar li {
+  display:inline; 
+  margin-right:20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform:capitalize;
+  letter-spacing: 1px;
+  transition: 0.5s;
+
+}
+.navbar li:hover {
+  display: inline-block;
+  padding: 0 2px;
+  cursor: pointer;
+  transform: translateY(-2px);
+  filter: drop-shadow(
+    0 2px 4px rgb(255, 255, 255)
+  );
+}
+.navbar a {
+  color:white; 
+  text-decoration:none;  
+}
+@media screen and (max-width: 768px) {
+  .navbar ul {
+    display: block;
+    margin-left: 0;
+  }
+  .navbar li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
