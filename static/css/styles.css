@@ -5,19 +5,33 @@ body{
     margin: 0;
     padding: 0;
 }
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 .title{ /*TODO: cambiar el color de las letras */
+  margin-left: 150px;
   text-align: center;
   margin-top: 50px;
   font-size: 50px;
   font-weight: bold;
   background: linear-gradient(
-    270deg, #FF512F 0%, #DD2476 100%
+    270deg, #1832f6 0%, #f71ccf 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .navbar {
-  background-color: #333;
+  background-color: #032c55;
   color: white;
   padding: 15px;
   
@@ -44,13 +58,49 @@ body{
   cursor: pointer;
   transform: translateY(-2px);
   filter: drop-shadow(
-    0 2px 4px rgb(255, 255, 255)
+    0 6px 6px rgb(0, 0, 0)
   );
 }
 .navbar a {
   color:white; 
   text-decoration:none;  
 }
+.itemList{
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+}
+.container {
+  background-image: url('../img/image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  height: 100vh;
+}
+
+.container h1 {
+  font-size: 2em;
+}
+
+.container p {
+  font-size: 1em;
+}
+
+.container button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.container .icon {
+  color: yellow;
+  font-size: 24px;
+}
+
 @media screen and (max-width: 768px) {
   .navbar ul {
     display: block;
