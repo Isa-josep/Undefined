@@ -148,8 +148,6 @@ body{
   height: 50vh; 
   width: 50vh; 
   margin-left: 60vh;
-  background-color: #f44dd5;
-  
 }
 .title-right{
   font-family: 'livvic';
@@ -164,4 +162,9 @@ body{
   font-size: 20px;
   font-weight: medium;
   justify-self: unset;
+}
+.img-right{
+  width: 20px;
+  height: 20px;
+
 }
