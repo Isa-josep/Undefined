@@ -18,15 +18,18 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 } */
-.title{ /*TODO: cambiar el color de las letras */
+.title{
   margin-left: 100px;
   font-family: 'livvic';
   text-align: center;
   margin-top: 50px;
   font-size: 50px;
   font-weight: bold;
+  filter: drop-shadow(
+    0 8px 8px rgb(0, 0, 0)
+  );
   background: linear-gradient(
-    270deg, #1832f6 0%, #f71ccf 100%
+    270deg, #2e45f6 0%, #f44dd5 100%
   );
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -140,5 +143,25 @@ body{
   width: 50vh; 
   margin-left: 100px;
   border-radius: 2vh;
-
+}
+.sub-section-right{
+  height: 50vh; 
+  width: 50vh; 
+  margin-left: 60vh;
+  background-color: #f44dd5;
+  
+}
+.title-right{
+  font-family: 'livvic';
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: bold;
+  justify-self: unset;
+}
+.sub-right{
+  font-family: 'livvic';
+  color: #F7C35F;
+  font-size: 20px;
+  font-weight: medium;
+  justify-self: unset;
 }
