@@ -182,6 +182,9 @@ body{
   background-color: #f44dd5;
   margin-left: 5vh;
   margin-right: 5vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .title-down{
   font-family: 'livvic';
@@ -193,4 +196,14 @@ body{
   justify-content: center;
   align-items: center;
   display: flex;
+}
+.card-fruit-img{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: aqua;
+}
+.img-fruit{
+  width: 7vh;
+  height: 7vh;
 }
