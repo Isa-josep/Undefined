@@ -168,7 +168,7 @@ body{
   height: 20px;
 }
 .down-section{
-  background: red;
+  background: #334b35;
   width: 100%;
   height: 50vh;
   justify-content: space-between;
@@ -179,13 +179,21 @@ body{
   height: 25vh; 
   width: 25vh; 
   border-radius: 2vh;
-  background-color: #f44dd5;
+  background-color: #445945;
   margin-left: 5vh;
   margin-right: 5vh;
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-direction: column;
 }
+.card-fruit:hover {
+  transition: opacity 0.6s ease; 
+  background-color: #F7C35F;
+  filter: drop-shadow(0 6px 6px rgb(0, 0, 0));
+  opacity: 1;
+}
+
 .title-down{
   font-family: 'livvic';
   color: #FFFFFF;
@@ -197,13 +205,13 @@ body{
   align-items: center;
   display: flex;
 }
-.card-fruit-img{
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  background-color: aqua;
-}
 .img-fruit{
   width: 7vh;
   height: 7vh;
+}
+.name-card-fluit{
+  font-family: 'livvic';
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
 }
