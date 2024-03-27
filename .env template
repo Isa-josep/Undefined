@@ -1,0 +1,4 @@
+DB_HOST=localhost #la dirección del  servidor de base de datos
+DB_USER=root    #el usuario de la base de datos
+DB_PASS=contraseña_super_secreta  #la contraseña de la base de datos
+DB_NAME=nombre_basededatos  #el nombre de la base de datos
