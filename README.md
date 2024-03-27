@@ -1,5 +1,5 @@
-> .[!IMPORTANT].
-> Debes tener PHP 8 o porteriores 
+> [!CAUTION]
+> DEBERAS DE TENER UNA VERCION DE PHP 8 O PORTERIOR 
 # Tec Export
 
 
