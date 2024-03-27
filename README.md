@@ -1,4 +1,4 @@
-> .[!Caution].
+> .[!IMPORTANT].
 > Debes tener PHP 8 o porteriores 
 # Tec Export
 
