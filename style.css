@@ -28,7 +28,7 @@ body {
 }
 .login-form {
     flex: 1;
-    background-color: #f1f1f1;
+    background-color: #edf4fc;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 5, 0.2);
 }
@@ -65,17 +65,17 @@ a {
     text-decoration: none;
 }
 .section-log{
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: 50px;
     margin-right: 50px;
     background-color: #ffffff;
-    height: 50vh;
+    height: 70vh;
     width: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0px 35px 0px 35px;
-    box-shadow: 0 0 35px rgba(0, 0, 5, .5);
+    box-shadow: 0 0 35px rgba(0, 0, 5, .7);
     flex-direction: column;
 }
 .form-log{
@@ -85,14 +85,25 @@ a {
     width: 65vh;
     border: rgb(163, 168, 163) solid 1px;
 }
-.sizedBox{
-    height: 15px;
-  }
-.input{
-    
-    border-radius: 15px;
-    color: #448a40;
-    width: 45vh;
-    height: 3vh;
+.inputn{
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    background-color: #dbf9f0ac;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     outline: none;
 }
+.title{
+    font-family: 'livvic';
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(
+      270deg, #2e45f6 0%, #f44dd5 100%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
