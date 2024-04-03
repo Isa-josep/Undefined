@@ -82,7 +82,7 @@ body{
   font-size: 18px;
 }
 .container {
-  background-image: url('../img/image.png');
+  background-image: url('../img/image.webp');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
@@ -125,7 +125,7 @@ body{
   height: 50vh;
 }
 .card-img{
-  background-image: url('../img/imagencard.png');
+  background-image: url('../img/imagencard.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
